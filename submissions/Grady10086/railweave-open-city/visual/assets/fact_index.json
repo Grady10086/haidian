@@ -47,6 +47,14 @@
       "excluded_use": "site_authorization"
     },
     {
+      "fact_id": "F-AI-ORIGIN-SERVICE-001",
+      "statement_zh": "北京市经信部门2026年名单将AI原点社区专精特新服务站的运营单位列为北京市东升农工商总公司；新华社报道另记录AI原点社区一楼设有自助服务终端和一站式服务柜台。两项记录将服务主体和普通服务基线核查缩小到具体线索，但不证明柜台位于中关村东路8号候选展厅，也不构成RailWeave场地授权或责任接收。",
+      "statement_en": "A 2026 Beijing economy and information-technology list names Beijing Dongsheng Agricultural and Industrial Corporation as the operating entity of the AI Origin Community specialised-SME service station; Xinhua separately reports a self-service terminal and one-stop service counter on a ground floor within AI Origin Community. These records narrow service-role and ordinary-service baseline checks to specific leads, but do not locate the counter in the candidate hall at 8 Zhongguancun East Road or constitute RailWeave site authorisation or accountability acceptance.",
+      "source_ids": ["AI-ORIGIN-SME-STATION-OPERATOR-2026", "AI-ORIGIN-GROUND-FLOOR-SERVICE-2026"],
+      "evidence_levels": ["L2"],
+      "excluded_use": "hall_operator_staffing_opening_hours_site_authorization_or_role_appointment"
+    },
+    {
       "fact_id": "F-AI-ORIGIN-SITE-001",
       "statement_zh": "中关村东路8号原点大厦（原东升大厦）裙房一层AI原点社区展厅的既有装修工程规模为1650平方米，施工许可证号为110108202606050403，并于2026年7月20日取得京竣联验（海）字〔2026〕1380号联合验收通知书。",
       "statement_en": "The existing fit-out project for the AI Origin Community exhibition hall on the first floor of the podium at Origin Building (formerly Dongsheng Building), 8 Zhongguancun East Road, has a permitted project scale of 1,650 m², construction permit number 110108202606050403, and joint-acceptance notice Jing Jun Lian Yan (Hai) No. 1380 dated 20 July 2026.",
@@ -77,6 +85,14 @@
       "source_ids": ["AI-ORIGIN-BUILDING-RENAME", "AI-ORIGIN-EXHIBITION-BIDS", "AI-ORIGIN-RONGHUB-NOTICE", "AI-ORIGIN-RONGHUB-AWARD"],
       "evidence_levels": ["L2"],
       "excluded_use": "s06_quote_area_rate_or_itemised_budget"
+    },
+    {
+      "fact_id": "F-PUBLIC-SIGNAGE-COST-001",
+      "statement_zh": "中国工艺美术馆导视标识系统升级改造项目公开中标额97.5996万元，并附序号1—32的分项报价表；第32项为0元暂列金，适用实体分项披露规格、工艺、单位、数量、单价和合价，可用于校核S06导视询价表的字段与漏项。",
+      "statement_en": "The China Arts and Crafts Museum wayfinding-signage upgrade publishes a CNY 975,996 award and an attached itemised schedule numbered 1–32. Line 32 is a zero-value provisional sum; applicable physical items disclose specifications, processes, units, quantities, unit prices, and totals for checking S06 quotation fields and omissions.",
+      "source_ids": ["CN-MUSEUM-SIGNAGE-ITEMISED-AWARD-2025"],
+      "evidence_levels": ["L2"],
+      "excluded_use": "s06_unit_rate_area_or_point_conversion_project_quote_or_firm_total"
     },
     {
       "fact_id": "F-AI-ORIGIN-ADDRESS-001",

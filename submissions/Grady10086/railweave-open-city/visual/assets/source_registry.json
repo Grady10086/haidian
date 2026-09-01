@@ -55,6 +55,8 @@
       "QINGHUAYUAN-HERITAGE",
       "AI-ORIGIN-2026",
       "AI-ORIGIN-TALENT-STATION",
+      "AI-ORIGIN-SME-STATION-OPERATOR-2026",
+      "AI-ORIGIN-GROUND-FLOOR-SERVICE-2026",
       "AI-ORIGIN-EXHIBITION-TENDER",
       "AI-ORIGIN-CONSTRUCTION-PERMIT",
       "AI-ORIGIN-JOINT-ACCEPTANCE",
@@ -92,6 +94,7 @@
       "BJ-TABLET-HUAWEI-2025",
       "BJ-TABLET-LENOVO-2026-B",
       "BJ-TEMP-WAYFINDING-CAFA-2026",
+      "CN-MUSEUM-SIGNAGE-ITEMISED-AWARD-2025",
       "BJ-TEMP-EXHIBIT-SEED-2026",
       "BJ-TEMP-EXHIBIT-ACCESS-2026",
       "BJ-ACCESS-EVALUATION-2026",
@@ -119,6 +122,7 @@
   "official_cost_source_boundaries": {
     "AI-ORIGIN-RONGHUB-NOTICE": "只核实原点大厦原餐厅空间融HUB的采购范围，不证明成交金额、RailWeave场地授权、现状可用或S06项目报价。",
     "AI-ORIGIN-RONGHUB-AWARD": "只核实融HUB成交额110.102263万元；范围须回看采购公告，不构成S06项目报价。",
+    "CN-MUSEUM-SIGNAGE-ITEMISED-AWARD-2025": "只用于校核导视介质、制作安装和询价表字段是否漏列；建筑类型、材料、固定方式、消防条件及验收口径不同，不拆取单价、不按面积或点位折算，不构成S06项目报价。",
     "BJ-ACCESS-EVALUATION-2026": "作为公开采购最高限价记录纳入官方成本来源，但缺少与S06一致的项目数、点位、用户和工时分母，不进入S06定量合计。"
   },
   "withdrawn_source_rule": {

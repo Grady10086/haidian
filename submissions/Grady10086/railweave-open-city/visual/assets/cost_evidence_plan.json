@@ -97,6 +97,21 @@
       "included_in_s06_budget": false
     },
     {
+      "sample_id": "PS-MUSEUM-SIGNAGE-2025",
+      "source_id": "CN-MUSEUM-SIGNAGE-ITEMISED-AWARD-2025",
+      "sample_status": "accepted_itemised_signage_schedule_reference_with_scope_limit",
+      "published_at": "2025-11-14",
+      "published_value": {
+        "type": "导视标识升级项目成交额及公开分项报价附件",
+        "amount_cny": 975996,
+        "itemised_line_count": 32,
+        "line_32": "zero_value_provisional_sum"
+      },
+      "use_zh": "校核S06导视介质、规格工艺、制作安装、数量、单价和合价等询价表字段是否漏列。",
+      "comparability_limit_zh": "建筑类型、数量、材料、固定方式、消防条件、服务周期和验收口径不同；不拆取单价、不按面积或点位折算，不构成S06项目报价。",
+      "included_in_s06_budget": false
+    },
+    {
       "sample_id": "PS-TEMP-EXHIBIT-SEED-2026",
       "source_id": "BJ-TEMP-EXHIBIT-SEED-2026",
       "sample_status": "accepted_temporary_package_reference_with_scope_limit",
@@ -319,14 +334,14 @@
       "quantity_status": "pending_field_and_user_review",
       "quantity_evidence_refs": [],
       "unit_price_status": "public_project_level_samples_only_no_s06_unit_price",
-      "price_sample_records": ["PS-ACCESS-GUIDE-2026", "PS-ACCESS-MIXED-AUDIT-2026", "PS-TEMP-WAYFINDING-2026", "PS-TEMP-EXHIBIT-ACCESS-2026"],
+      "price_sample_records": ["PS-ACCESS-GUIDE-2026", "PS-ACCESS-MIXED-AUDIT-2026", "PS-TEMP-WAYFINDING-2026", "PS-MUSEUM-SIGNAGE-2025", "PS-TEMP-EXHIBIT-ACCESS-2026"],
       "public_comparable_status": "verified_service_and_temporary_package_references_with_scope_limits",
       "project_quote_status": "required",
       "valid_project_quote_count_contribution": 0,
       "included_in_confirmed_total": false,
       "comparability_adjustments": [
         "须核实S06服务点位、开放时段、班次、用户样本、人员资质、无障碍支持和验收要求",
-        "后续应取得不少于三份同期可比报价；现有样本不直接折算成100日预算"
+        "公开分项清单只用于校核字段和漏项；后续仍应取得不少于三份同期可比报价，现有样本不直接折算成100日预算"
       ],
       "tax_and_fee_basis_ref": null,
       "budget_or_funding_ref": null,

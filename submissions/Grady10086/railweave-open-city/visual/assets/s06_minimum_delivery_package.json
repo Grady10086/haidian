@@ -17,7 +17,7 @@
     "contract": "weave_contracts.json#/contracts/5",
     "prototype": "scenario_prototypes.json#/prototypes/1",
     "implementation_register": "implementation_register.json#/project_registers/0",
-    "verification_handoff": "verification_handoff_register.json#/records/2",
+    "verification_handoff": "verification_handoff_register.json#/records/3",
     "cost_evidence": "cost_evidence_plan.json#/items/5",
     "test_receipt": "receipt.json#/s06_100_day_slice",
     "spatial_audit_segments": ["../../geometry/roads.geojson#AUD-SPINE-01", "../../geometry/roads.geojson#AUD-SPINE-06"],
@@ -28,7 +28,9 @@
       "AI-ORIGIN-CONSTRUCTION-PERMIT",
       "AI-ORIGIN-JOINT-ACCEPTANCE",
       "AI-ORIGIN-EXHIBITION-OPERATING",
-      "AI-ORIGIN-BUILDING-RENAME"
+      "AI-ORIGIN-BUILDING-RENAME",
+      "AI-ORIGIN-SME-STATION-OPERATOR-2026",
+      "AI-ORIGIN-GROUND-FLOOR-SERVICE-2026"
     ],
     "public_cost_source_ids": ["AI-ORIGIN-RONGHUB-NOTICE", "AI-ORIGIN-RONGHUB-AWARD"]
   },
@@ -60,6 +62,18 @@
         "value": {"procuring_entity_zh": "北京市东升农工商总公司", "funding": "enterprise_self_funded", "status": "existing_fitout_relationship_only"},
         "source_ids": ["AI-ORIGIN-EXHIBITION-TENDER"],
         "use_limit_zh": "只用于识别既有装修工程建设关系和首轮对接对象，不证明该单位已接收RailWeave场地、实施或运营责任。"
+      },
+      {
+        "fact": "listed_specialised_sme_service_station_operator",
+        "value": {"service_station_zh": "AI原点社区专精特新服务站", "listed_operating_entity_zh": "北京市东升农工商总公司", "list_status": "2026_service_station_cultivation_candidate"},
+        "source_ids": ["AI-ORIGIN-SME-STATION-OPERATOR-2026"],
+        "use_limit_zh": "只识别公开名单所列服务站培育对象运营单位，不证明其为候选展厅现产权人、物业或法定运营人，也不构成RailWeave责任接收。"
+      },
+      {
+        "fact": "community_level_ground_floor_ordinary_service_context",
+        "value": {"reported_items": ["self_service_terminal", "one_stop_service_counter", "entrepreneurship_and_postdoctoral_policy_information", "social_security_and_archives_information"], "location_status": "ai_origin_community_ground_floor_not_exact_hall"},
+        "source_ids": ["AI-ORIGIN-GROUND-FLOOR-SERVICE-2026"],
+        "use_limit_zh": "只证明社区层面的普通服务基础，不将报道中的一楼定位为中关村东路8号候选展厅，不证明人工值守、非数字替代、开放时段、无障碍连续性或系统可复用。"
       },
       {
         "fact": "existing_fitout_construction_permit",
@@ -131,7 +145,7 @@
     "packages": ["baseline_and_participant_support", "ordinary_service_and_1_to_1_reversible_physical_interface", "interface_equipment_and_network", "staffing_training_and_human_takeover", "independent_validation_data_legal_and_insurance", "removal_restoration_and_contingency"],
     "cost_evidence_maturity": "CM2_partial_public_comparators",
     "project_price_maturity": "CM0_no_project_specific_quote",
-    "public_comparator_case_count": 13,
+    "public_comparator_case_count": 14,
     "public_comparator_sample_ids": [
       "PS-AI-ORIGIN-EXHIBITION-2026",
       "PS-AI-ORIGIN-RONGHUB-2026",
@@ -139,6 +153,7 @@
       "PS-TABLET-HUAWEI-2025",
       "PS-TABLET-LENOVO-B-2026",
       "PS-TEMP-WAYFINDING-2026",
+      "PS-MUSEUM-SIGNAGE-2025",
       "PS-TEMP-EXHIBIT-SEED-2026",
       "PS-TEMP-EXHIBIT-ACCESS-2026",
       "PS-ACCESS-GUIDE-2026",
@@ -147,7 +162,7 @@
       "PS-LEGAL-COUNSEL-2026",
       "PS-PUBLIC-LIABILITY-INSURANCE-2026"
     ],
-    "public_comparator_use_rule_zh": "上述13个公开案例只用于校核科目、量级和可比条件；不是S06询价，不相互平均，不按面积、人数或天数折算。",
+    "public_comparator_use_rule_zh": "上述14个公开案例只用于校核科目、量级、询价表字段和可比条件；不是S06询价，不相互平均，不按面积、人数、点位或天数折算。",
     "quantity_status": "unconfirmed_pending_field_measurement",
     "valid_comparable_quote_count": 0,
     "valid_project_quote_count": 0,
@@ -216,7 +231,7 @@
         "quantity_formula": "Q04 = {N_tactile_items, N_easy_read_panels, N_paper_sets_per_update × N_updates, N_temporary_signs, N_installations, N_removals}",
         "unit": "item_set_install_remove_schedule",
         "quantity_variables": ["N_tactile_items", "N_easy_read_panels", "N_paper_sets_per_update", "N_updates", "N_temporary_signs", "N_installations", "N_removals"],
-        "public_comparator_sample_ids": ["PS-TEMP-WAYFINDING-2026", "PS-TEMP-EXHIBIT-ACCESS-2026"],
+        "public_comparator_sample_ids": ["PS-TEMP-WAYFINDING-2026", "PS-MUSEUM-SIGNAGE-2025", "PS-TEMP-EXHIBIT-ACCESS-2026"],
         "low": null,
         "base": null,
         "high": null,

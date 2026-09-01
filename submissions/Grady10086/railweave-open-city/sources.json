@@ -134,6 +134,27 @@
       "retrieved_at": "2026-08-12"
     },
     {
+      "id": "AI-ORIGIN-SME-STATION-OPERATOR-2026",
+      "url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202604/P020260429517760563446.pdf",
+      "attachment_sha256": "6fba941f6c58a6b54db0bdcae1f67cce005330d8b43792924885296674e93178",
+      "record_locator": "《2026年北京市专精特新服务站培育对象名单》第4页、第84项：AI原点社区专精特新服务站；运营单位名称：北京市东升农工商总公司；所属区：海淀区。",
+      "source_type": "official_public_government_list",
+      "formal_use": "named_service_station_operator_with_limits",
+      "published_at": "2026-04-29",
+      "retrieved_at": "2026-09-01",
+      "usage": "核实AI原点社区专精特新服务站被列为2026年北京市专精特新服务站培育对象，名单所列运营单位为北京市东升农工商总公司。该记录只识别该服务站培育对象的公开运营单位，不证明其为原点大厦裙房一层展厅的现产权人、物业或法定运营人，不构成RailWeave场地授权、责任接收、人员排班或开放时段承诺。"
+    },
+    {
+      "id": "AI-ORIGIN-GROUND-FLOOR-SERVICE-2026",
+      "url": "https://www.xinhuanet.com/fortune/20260612/b02c7bac0cc540f7bfee37c4eea1d2d1/c.html",
+      "record_locator": "正文‘上下楼即上下游成为现实’段：AI原点社区一楼的自助服务终端与一站式服务柜台；创业补贴、博士后科研工作站、社保与档案管理等人才政策信息。",
+      "source_type": "official_state_media",
+      "formal_use": "operating_context_with_limits",
+      "published_at": "2026-06-12",
+      "retrieved_at": "2026-09-01",
+      "usage": "核实新华社报道所述AI原点社区一楼已出现自助服务终端和一站式服务柜台，并提供创业补贴、博士后科研工作站支持、个人社保与档案管理等政策信息。该报道只证明社区层面的普通服务基础，不足以把‘一楼’定位为中关村东路8号裙房一层展厅，也不证明柜台尺寸、人工值守、非数字替代、开放时段、无障碍连续性、系统接口或RailWeave可复用条件。"
+    },
+    {
       "id": "AI-ORIGIN-EXHIBITION-TENDER",
       "url": "https://www.cntcitc.com.cn/more.html?chanId=12&chanType=3&contentId=50ffeea16b26461090e447f77ef3b709",
       "source_type": "official_tender_agent_public_notice",
@@ -260,6 +281,18 @@
       "published_at": "2026-04-17",
       "retrieved_at": "2026-08-29",
       "usage": "中央美术学院毕业季视觉搭建及导视服务成交17.368万元，含分阶段信息更换、安装、运维和拆除撤场；面积、材料和消防条件不同，只作可逆导视整包量级参照。"
+    },
+    {
+      "id": "CN-MUSEUM-SIGNAGE-ITEMISED-AWARD-2025",
+      "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202511/t20251114_25697303.htm",
+      "attachment_url": "https://www.ccgp.gov.cn/oss/download?uuid=F12A24E2E35AEB838BD691B9E1F6D9",
+      "attachment_sha256": "7a3aa479d41e395e5a7de79f9fad1d1f9cf4f01e6a29f0734f8447030b269762",
+      "record_locator": "中标公告总中标金额97.599600万元；附件2《分项报价-北京一脉导视科技有限公司.pdf》，10页，分项序号1—32，其中第32项为0元暂列金。",
+      "source_type": "official_public_procurement_result",
+      "formal_use": "itemised_signage_cost_reference_with_limits",
+      "published_at": "2025-11-14",
+      "retrieved_at": "2026-09-01",
+      "usage": "核实中国工艺美术馆导视标识系统升级改造项目中标额97.5996万元及附件序号1—32的分项报价表；其中第32项为0元暂列金，适用实体分项披露规格、工艺、单位、数量、单价和合价。该表用于检查S06导视介质、制作安装和取价科目是否漏列；项目的建筑类型、数量、材料、固定方式、消防条件、服务周期及验收口径与S06不同，不得拆取单价、按面积或点位折算，不构成S06项目报价或确定性总价。"
     },
     {
       "id": "BJ-TEMP-EXHIBIT-SEED-2026",

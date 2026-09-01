@@ -339,14 +339,14 @@
     {
       "path": "assumptions.json",
       "required": true,
-      "sha256": "f82a4e5c637851971ab64b31c3e5e8989203443e25135a93c381ad971a6887f4",
+      "sha256": "53c3f48ec4ea44c5ee02ea7939d11a1976d83a8bc027aa26e010d4e485e7d269",
       "role": "assumptions",
       "language": "neutral"
     },
     {
       "path": "changelog.md",
       "required": true,
-      "sha256": "677d02a1ec19277e538d8fcd0c6495bc2804fcf90f450dd507477e2658b12eb8",
+      "sha256": "f6c6b371b78f69667456b49fd868c18eb7be33d230bd1dd687699acf0f11ceaf",
       "role": "changelog",
       "language": "neutral"
     },
@@ -472,7 +472,7 @@
     {
       "path": "proposal.en.md",
       "required": true,
-      "sha256": "60a778a598184812f9f728f1e77b272583006395ea050ad9cacb02c6f6539026",
+      "sha256": "f7c4604948da3e5bdf68661ca9fc0dea064efef1027c345b1e5f5a885b768038",
       "role": "narrative",
       "language": "en",
       "translation_of": "proposal.md"
@@ -480,7 +480,7 @@
     {
       "path": "proposal.md",
       "required": true,
-      "sha256": "8d2ea0934692fd4b08b9b096410a6cc16beeb4fab756ce3faee53e75568e5e47",
+      "sha256": "507d592681e2469147b5a8aa66167a8812d3f4b6e71661b3dcb779c44034fc7e",
       "role": "narrative",
       "language": "zh"
     },
@@ -501,7 +501,7 @@
     {
       "path": "report/proposal.en.html",
       "required": true,
-      "sha256": "53c508ab46db7237430e90ab8e600e205bec34e35ca14ef637c93ac33c6280db",
+      "sha256": "4d485a3951520e69c605fc9c0fe4d9a394d3ff389dcfa234069da1cde8c84d16",
       "role": "rendered_proposal_html",
       "language": "en",
       "translation_of": "report/proposal.html"
@@ -509,21 +509,21 @@
     {
       "path": "report/proposal.html",
       "required": true,
-      "sha256": "5e3a1531d32f116a7bc2c010caac68cdd241ebe80cc0426211a1ae764c4c2bb8",
+      "sha256": "0d88f83249d74d15fc3d01ee334f89c14fd4afe11d0fcc3c0badfef3ffa0a33d",
       "role": "rendered_proposal_html",
       "language": "zh"
     },
     {
       "path": "self_check.json",
       "required": true,
-      "sha256": "546581b8bde3fa8516090116f7601f4e2a10e217ad4f6da7966e12a0cb7242ee",
+      "sha256": "8166a438584bd3d740e641022429a33866c513eaf5146ae1a079ba4eea03216e",
       "role": "self_check",
       "language": "neutral"
     },
     {
       "path": "sources.json",
       "required": true,
-      "sha256": "e3b83819e1c2f3b2d400117153f02f4a34b946bd7d73119c4ff76e62ded65dcd",
+      "sha256": "921b7c0169bb579d1be968ee8e27784ea128b6cde6a0aec6bcd3316af91d11b7",
       "role": "sources",
       "language": "neutral"
     },
@@ -544,7 +544,7 @@
     {
       "path": "visual/assets/cost_evidence_plan.json",
       "required": true,
-      "sha256": "165ce11577bab57296048cc9844cf40f036ceb8dde87de1a8a179e5138c40a20",
+      "sha256": "1748ae5227aacdd1ebdcee2198596f796b373bd9be31cd075fd71b7806beaf24",
       "role": "evidence_data",
       "language": "neutral"
     },
@@ -565,14 +565,14 @@
     {
       "path": "visual/assets/fact_index.json",
       "required": true,
-      "sha256": "4aac43f28737c859fc63d9ca3ab2a9d37085721987a7f65ba8486b58ad8d0161",
+      "sha256": "8d59ac623bf1372abaf4b7b2df22bb58d9858d07118b0cb746c9efe8620be861",
       "role": "evidence_data",
       "language": "neutral"
     },
     {
       "path": "visual/assets/implementation_register.json",
       "required": true,
-      "sha256": "f82806ccc895b8d4256236f7c0bf19a7b8d27d2b96eefc6eb48ee03ca1685c9a",
+      "sha256": "e33699cf28c4b9b0c01ad044213bf7d4b57b375d0a9fae4ffe4ef71140bd5c2e",
       "role": "evidence_data",
       "language": "neutral"
     },
@@ -622,7 +622,7 @@
     {
       "path": "visual/assets/s06_minimum_delivery_package.json",
       "required": true,
-      "sha256": "962ab5bd349fbe65c99919c67cba6e8b9c2599a9aea53bab9f8c44c70d2ec37d",
+      "sha256": "a6558c78d607879c7abbf2c17b92b6721bd47bda0caf40bffa75ee3f5da7fcd0",
       "role": "evidence_data",
       "language": "neutral"
     },
@@ -636,7 +636,7 @@
     {
       "path": "visual/assets/source_registry.json",
       "required": true,
-      "sha256": "134a1ea2d109c988b8b0d606ba3b231fe06c3aaa25643a734dfac71b3b05e36a",
+      "sha256": "0cc67cded7c44147ee247aa6f954bff94b603ca61ef07588772ce591cd2a9a1a",
       "role": "evidence_data",
       "language": "neutral"
     },
@@ -664,7 +664,7 @@
     {
       "path": "visual/assets/verification_handoff_register.json",
       "required": true,
-      "sha256": "0850da32e2101a758050aec7871757a656a79de479dce90b0ddbd699b1d2b45f",
+      "sha256": "98a2b90e7fe12c13e404e45611fa51de8c8905284adfbb4478fe0801ea108c61",
       "role": "evidence_data",
       "language": "neutral"
     },
